@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-// --- Asset Imports ---
-// Using placeholders for assets
+
 import loraAntena from './assets/loraantena2.png';
 import atrasIcono from './assets/atrasicono.png';
 import enviar from './assets/enviar.png';
 
-// --- Landing Screen (No changes) ---
+
 const LandingScreen = ({ onFindAntennas }) => {
     return (
         <div className="flex flex-col items-center justify-center h-full text-center p-8 bg-gray-900 text-white">
@@ -78,7 +77,7 @@ const BluetoothScanScreen = ({ onSelectAntenna, onBack }) => {
                     <img src={atrasIcono} alt="Back" className="w-6 h-6" />
                 </button>
                 <h2 className="text-xl font-bold mx-auto">Buscar Antena Bluetooth</h2>
-                <div className="w-8"></div> {/* Spacer */}
+                <div className="w-8"></div>
             </header>
 
             <div className="flex flex-col items-center justify-center flex-grow p-8 text-center">
