@@ -84,74 +84,78 @@ This project, named `lora-emergencia` in its package manifest, serves as a robus
     ├── tailwind.config.js
     └── vite.config.js
 ````
+### Project Index
 
-\#\#\#  Project Index
+<details open>
+<summary><b><code>LORAPP/</code></b></summary>
 
-\<details open\>
-\<summary\>\<b\>\<code\>LORAPP/\</code\>\</b\>\</summary\>
-\<details\> \<summary\>\<b\>**root**\</b\>\</summary\>
-\<blockquote\>
-\<table\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/postcss.config.js'\>postcss.config.js\</a\>\</b\>\</td\>
-\<td\>Configuration for PostCSS, enabling \<b\>Tailwind CSS\</b\> and \<b\>Autoprefixer\</b\> plugins for CSS processing.\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/package-lock.json'\>package-lock.json\</a\>\</b\>\</td\>
-\<td\>A detailed record of the exact dependency tree used in the project.\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/tailwind.config.js'\>tailwind.config.js\</a\>\</b\>\</td\>
-\<td\>Tailwind CSS configuration, specifying content files to scan for classes (`./index.html`, `./src/**/*.{js,ts,jsx,tsx}`).\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/vite.config.js'\>vite.config.js\</a\>\</b\>\</td\>
-\<td\>Vite configuration file. Sets up the \<b\>React plugin\</b\>, enables **HTTPS** via `mkcert`, and configures the dev server to use HTTPS.\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/package.json'\>package.json\</a\>\</b\>\</td\>
-\<td\>Project manifest listing dependencies (`react`, `@tailwindcss/vite`) and dev dependencies (Vite, ESLint, PostCSS, etc.), along with standard scripts (`dev`, `build`, `lint`).\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/index.html'\>index.html\</a\>\</b\>\</td\>
-\<td\>The single entry point for the application. Contains the root `div` (`#root`) where the React application is mounted.\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/eslint.config.js'\>eslint.config.js\</a\>\</b\>\</td\>
-\<td\>ESLint flat configuration. Includes base JS recommendations and specific plugins for React Hooks and React Refresh.\</td\>
-\</tr\>
-\</table\>
-\</blockquote\>
-\</details\>
-\<details\> \<summary\>\<b\>src\</b\>\</summary\>
-\<blockquote\>
-\<table\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/index.css'\>index.css\</a\>\</b\>\</td\>
-\<td\>Global CSS file (often used for importing Tailwind base styles).\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/App.css'\>App.css\</a\>\</b\>\</td\>
-\<td\>Component-specific CSS for the main application component.\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/App.jsx'\>App.jsx\</a\>\</b\>\</td\>
-\<td\>The root React component of the application.\</td\>
-\</tr\>
-\<tr\>
-\<td\>\<b\>\<a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/main.jsx'\>main.jsx\</a\>\</b\>\</td\>
-\<td\>The main JavaScript entry file. Responsible for rendering the React application (`App.jsx`) into the DOM element `#root`.\</td\>
-\</tr\>
-\</table\>
-\</blockquote\>
-\</details\>
-\</details\>
+<details>
+<summary><b>root</b></summary>
+<blockquote>
+<table>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/postcss.config.js'>postcss.config.js</a></b></td>
+<td>Configuration for PostCSS, enabling <b>Tailwind CSS</b> and <b>Autoprefixer</b> plugins for CSS processing.</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/package-lock.json'>package-lock.json</a></b></td>
+<td>A detailed record of the exact dependency tree used in the project.</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/tailwind.config.js'>tailwind.config.js</a></b></td>
+<td>Tailwind CSS configuration, specifying content files to scan for classes (`./index.html`, `./src/**/*.{js,ts,jsx,tsx}`).</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/vite.config.js'>vite.config.js</a></b></td>
+<td>Vite configuration file. Sets up the <b>React plugin</b>, enables **HTTPS** via `mkcert`, and configures the dev server to use HTTPS.</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/package.json'>package.json</a></b></td>
+<td>Project manifest listing dependencies (`react`, `@tailwindcss/vite`) and dev dependencies (Vite, ESLint, PostCSS, etc.), along with standard scripts (`dev`, `build`, `lint`).</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/index.html'>index.html</a></b></td>
+<td>The single entry point for the application. Contains the root `div` (`#root`) where the React application is mounted.</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/eslint.config.js'>eslint.config.js</a></b></td>
+<td>ESLint flat configuration. Includes base JS recommendations and specific plugins for React Hooks and React Refresh.</td>
+</tr>
+</table>
+</blockquote>
+</details>
+
+<details>
+<summary><b>src</b></summary>
+<blockquote>
+<table>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/index.css'>index.css</a></b></td>
+<td>Global CSS file (often used for importing Tailwind base styles).</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/App.css'>App.css</a></b></td>
+<td>Component-specific CSS for the main application component.</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/App.jsx'>App.jsx</a></b></td>
+<td>The root React component of the application.</td>
+</tr>
+<tr>
+<td><b><a href='https://github.com/F3rnandoVil/LoRapp/blob/master/src/main.jsx'>main.jsx</a></b></td>
+<td>The main JavaScript entry file. Responsible for rendering the React application (`App.jsx`) into the DOM element `#root`.</td>
+</tr>
+</table>
+</blockquote>
+</details>
+
+</details>
 
 -----
 
-\#\#  Getting Started
+## Getting Started
 
-\#\#\#  Prerequisites
+### Prerequisites
 
 Before getting started with LoRapp, ensure your runtime environment meets the following requirements:
 
@@ -159,7 +163,7 @@ Before getting started with LoRapp, ensure your runtime environment meets the fo
   - **Package Manager:** Npm
   - **Node.js:** Modern versions supporting `Vite` (typically `>=18` or as defined in dependency tree).
 
-\#\#\#  Installation
+### Installation
 
 Install LoRapp using one of the following methods:
 
@@ -167,15 +171,11 @@ Install LoRapp using one of the following methods:
 
 1.  Clone the LoRapp repository:
 
-<!-- end list -->
-
 ```sh
-❯ git clone [https://github.com/F3rnandoVil/LoRapp](https://github.com/F3rnandoVil/LoRapp)
+❯ git clone https://github.com/F3rnandoVil/LoRapp
 ```
 
 2.  Navigate to the project directory:
-
-<!-- end list -->
 
 ```sh
 ❯ cd LORAPP
@@ -183,16 +183,16 @@ Install LoRapp using one of the following methods:
 
 3.  Install the project dependencies:
 
-**Using `npm`**   [\<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge\_style}\&logo=npm\&logoColor=white" /\>](https://www.npmjs.com/)
+**Using `npm`**  
 
 ```sh
 ❯ npm install
 ```
 
-\#\#\#  Usage
+### Usage
 To run the development server with HTTPS enabled, use the following command:
 
-**Using `npm`**   [\<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge\_style}\&logo=npm\&logoColor=white" /\>](https://www.npmjs.com/)
+**Using `npm`**
 
 ```sh
 ❯ npm run dev
@@ -200,10 +200,11 @@ To run the development server with HTTPS enabled, use the following command:
 
 This command starts the Vite development server with Fast Refresh enabled and serves the application over HTTPS, as configured in `vite.config.js`.
 
-\#\#\#  Development
+### Development
 
 To build the project for production:
-**Using `npm`**   [\<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge\_style}\&logo=npm\&logoColor=white" /\>](https://www.npmjs.com/)
+
+**Using `npm`**
 
 ```sh
 ❯ npm run build
@@ -211,10 +212,10 @@ To build the project for production:
 
 The compiled and optimized files will be placed in the `dist/` directory.
 
-\#\#\#  Linting
+### Linting
 Run the linter to catch potential code quality issues:
 
-**Using `npm`**   [\<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge\_style}\&logo=npm\&logoColor=white" /\>](https://www.npmjs.com/)
+**Using `npm`**
 
 ```sh
 ❯ npm run lint
@@ -224,7 +225,7 @@ This executes ESLint on all files (`.`), enforcing the rules defined in `eslint.
 
 -----
 
-\#\#  Project Roadmap
+## Project Roadmap
 
   - [ ] **`Task 1`**: Integrate with LoRaWAN or other emergency monitoring APIs.
   - [ ] **`Task 2`**: Develop core UI components using React 19 and Tailwind CSS.
@@ -232,49 +233,49 @@ This executes ESLint on all files (`.`), enforcing the rules defined in `eslint.
 
 -----
 
-\#\#  Contributing
+## Contributing
 
   - **💬 [Join the Discussions](https://github.com/F3rnandoVil/LoRapp/discussions)**: Share your insights, provide feedback, or ask questions.
   - **🐛 [Report Issues](https://github.com/F3rnandoVil/LoRapp/issues)**: Submit bugs found or log feature requests for the `LoRapp` project.
   - **💡 [Submit Pull Requests](https://github.com/F3rnandoVil/LoRapp/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
-\<details closed\>
-\<summary\>Contributing Guidelines\</summary\>
+<details>
+<summary>Contributing Guidelines</summary>
 
 1.  **Fork the Repository**: Start by forking the project repository to your github account.
 2.  **Clone Locally**: Clone the forked repository to your local machine using a git client.
-       `sh    git clone [https://github.com/F3rnandoVil/LoRapp](https://github.com/F3rnandoVil/LoRapp)    `
+    `sh    git clone https://github.com/F3rnandoVil/LoRapp`
 3.  **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-       `sh    git checkout -b new-feature-x    `
+    `sh    git checkout -b new-feature-x`
 4.  **Make Your Changes**: Develop and test your changes locally. Ensure code passes linting (`npm run lint`).
 5.  **Commit Your Changes**: Commit with a clear message describing your updates.
-       `sh   	git commit -m 'Implemented new feature x.'    `
+    `sh    git commit -m 'Implemented new feature x.'`
 6.  **Push to github**: Push the changes to your forked repository.
-       `sh   	git push origin new-feature-x    `
+    `sh    git push origin new-feature-x`
 7.  **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8.  **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution\!
+8.  **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 
-\</details\>
+</details>
 
-\<details closed\>
-\<summary\>Contributor Graph\</summary\>
+<details>
+<summary>Contributor Graph</summary>
 <br>
-\<p align="left"\>
-   \<a href="https://github.com{/F3rnandoVil/LoRapp/}graphs/contributors"\>
-      \<img src="https://contrib.rocks/image?repo=F3rnandoVil/LoRapp"\>
-   \</a\>
-\</p\>
-\</details\>
+<p align="left">
+   <a href="https://github.com/F3rnandoVil/LoRapp/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=F3rnandoVil/LoRapp">
+   </a>
+</p>
+</details>
 
 -----
 
-\#\#  License
+## License
 
 This project is protected under the **MIT License**. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/mit/) file.
 
 -----
 
-\#\#  Acknowledgments
+## Acknowledgments
 
   * [**Vite**](https://vitejs.dev/) for the excellent, fast build tooling.
   * [**React**](https://react.dev/) for the foundational UI library.
@@ -283,5 +284,4 @@ This project is protected under the **MIT License**. For more details, refer to 
 
 <!-- end list -->
 
-```
-```
+// ...existing code...
